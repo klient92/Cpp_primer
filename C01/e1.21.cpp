@@ -8,8 +8,10 @@ int main(){
 
 	if(item1.isbn() == item2.isbn()){
 		std::cout << item1 + item2 << std::endl;
+		return 1;
 	}else {
 		std::cerr << "Different ISBN." << std::endl;
+		return 0;
 	}
 
 }
